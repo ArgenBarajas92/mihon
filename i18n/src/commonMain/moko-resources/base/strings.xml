@@ -228,6 +228,7 @@
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
     <string name="theme_monet">Dynamic</string>
+    <string name="theme_catppuccin">Catppuccin</string>
     <string name="theme_greenapple">Green Apple</string>
     <string name="theme_lavender">Lavender</string>
     <string name="theme_midnightdusk">Midnight Dusk</string>
@@ -498,6 +499,8 @@
     <string name="pref_remove_exclude_categories">Excluded categories</string>
     <string name="no_location_set">No storage location set</string>
     <string name="invalid_location">Invalid location: %s</string>
+    <string name="storage_failed_to_create_download_directory">Failed to create download directory</string>
+    <string name="storage_failed_to_create_directory">Failed to create directory: %s</string>
     <string name="disabled">Disabled</string>
     <string name="last_read_chapter">Last read chapter</string>
     <string name="second_to_last">Second to last read chapter</string>
@@ -624,6 +627,8 @@
     <string name="pref_verbose_logging">Verbose logging</string>
     <string name="pref_verbose_logging_summary">Print verbose logs to system log (reduces app performance)</string>
     <string name="pref_debug_info">Debug info</string>
+    <string name="pref_update_library_manga_titles">Update library manga titles to match source</string>
+    <string name="pref_update_library_manga_titles_summary">Warning: if a manga is renamed, it will be removed from the download queue (if present).</string>
 
       <!-- About section -->
     <string name="website">Website</string>
@@ -656,6 +661,7 @@
     <string name="email">Email address</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="logging_in">Logging in…</string>
     <string name="login_success">Logged in</string>
     <string name="logout_title">Log out from %1$s?</string>
     <string name="logout">Log out</string>
@@ -990,4 +996,18 @@
 
     <!-- Notes screen -->
     <string name="notes_placeholder">Enjoyed the part where…</string>
+
+    <string name="migrationConfigScreen.selectedHeader">Selected</string>
+    <string name="migrationConfigScreen.availableHeader">Available</string>
+    <string name="migrationConfigScreen.selectAllLabel">Select all</string>
+    <string name="migrationConfigScreen.selectNoneLabel">Select none</string>
+    <string name="migrationConfigScreen.selectEnabledLabel">Select enabled sources</string>
+    <string name="migrationConfigScreen.selectPinnedLabel">Select pinned sources</string>
+    <string name="migrationConfigScreen.continueButtonText">Continue</string>
+    <string name="migrationConfigScreen.skipMigrationConfigTitle">Skip migration config</string>
+    <string name="migrationConfigScreen.skipMigrationConfigSubtitle">To show this screen again in the future, disable skipping in Settings → Browse</string>
+
+    <string name="browseSettingsScreen.migrationCategoryHeader">Migration</string>
+    <string name="browseSettingsScreen.skipMigrationConfigTitle">Skip migration config</string>
+    <string name="browseSettingsScreen.skipMigrationConfigSubtitle">Use last used sources and preferences for migration</string>
 </resources>
